@@ -106,3 +106,4 @@ deploy:
   type: git
   repo: git@github.com:SoarTeam/HarryG.Q-Audio.org.git
   branch: master
+  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
